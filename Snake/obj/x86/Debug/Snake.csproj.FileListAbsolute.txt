@@ -1,4 +1,0 @@
-G:\проги\snake\Snake\bin\Debug\Snake.exe
-G:\проги\snake\Snake\bin\Debug\Snake.pdb
-G:\проги\snake\Snake\obj\x86\Debug\Snake.exe
-G:\проги\snake\Snake\obj\x86\Debug\Snake.pdb
