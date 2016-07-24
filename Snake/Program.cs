@@ -9,7 +9,7 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ldf");
+            Console.WriteLine("Start create game");
             Console.ReadLine();
         }
     }
