@@ -19,11 +19,11 @@ namespace Snake
             Point p4 = new Point(2, 5, '&');
             p4.Draw();
 
-            List<Point> pList = new List<Point>();
-            pList.Add(p1);
-            pList.Add(p2);
-            pList.Add(p3);
-            pList.Add(p4);
+            HorizLine hLine = new HorizLine(4, 12, 7, '+');
+            hLine.DrowHorizLine();
+
+            VertLine vLine = new VertLine(15, 2, 8, '+');
+            vLine.DrowVertLine();
 
             Console.ReadLine();
         }
