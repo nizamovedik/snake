@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AAEA1373-CE27-47B1-AD8E-DE97CACE0CE2}</ProjectGuid>
+    <ProjectGuid>{84DD11FF-2179-4508-A8E7-DC78369F80DF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Snake</RootNamespace>
