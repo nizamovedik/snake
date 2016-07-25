@@ -9,21 +9,22 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point(1, 3, '*');
+            Console.SetBufferSize(80,35);
+            Console.SetWindowSize(80, 35);
+            HorizLine hLineTop = new HorizLine(0, 78, 0, '+');
+            
+            HorizLine hLineBot = new HorizLine(0, 78, 34, '+');
+           
+            VertLine vLine = new VertLine(0, 0, 34, '+');
+            
+            VertLine vLine2 = new VertLine(78, 0, 34, '+');
+            hLineTop.DrowLine();
+            hLineBot.DrowLine();
+            vLine.DrowLine();
+            vLine2.DrowLine();
+
+            Point p1 = new Point(10, 3, '*');
             p1.Draw();
-
-            Point p2 = new Point(4, 5, '#');
-            p2.Draw();
-            Point p3 = new Point(0, 4, '^');
-            p3.Draw();
-            Point p4 = new Point(2, 5, '&');
-            p4.Draw();
-
-            HorizLine hLine = new HorizLine(4, 12, 7, '+');
-            hLine.DrowHorizLine();
-
-            VertLine vLine = new VertLine(15, 2, 8, '+');
-            vLine.DrowVertLine();
 
             Console.ReadLine();
         }
