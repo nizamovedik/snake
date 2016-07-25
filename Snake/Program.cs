@@ -23,8 +23,9 @@ namespace Snake
             vLine.DrowLine();
             vLine2.DrowLine();
 
-            Point p1 = new Point(10, 3, '*');
-            p1.Draw();
+            Point p = new Point(10, 3, '*');
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            snake.DrowLine();
 
             Console.ReadLine();
         }
